@@ -1,0 +1,88 @@
+/* 
+    Document   : git_styles.css
+    Created on : May 15, 2012, 10:16:28 AM
+    Author     : Rakhitha Nimesh
+    Description: Simple Styles Used For Git Code Plugin
+    Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+input{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type='text']{
+    width: 200px;
+    height: 30px;
+}
+
+input[type='button']{
+    height: 30px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    clear: both;
+    font-size: 15px;
+    height: 25px;
+    list-style: none outside none;
+}
+
+.label span{
+    color: red;
+}
+
+.label{
+    width: 200px;
+    float: left;
+}
+
+.field{
+    width: 300px;
+    float: left;
+}
+
+#form_error{
+    color: red;
+}
+
+#git_panel{
+    float: left;
+    width:100%;
+}
+#git_panel label{
+    width: 200px;
+}
+
+.git_panel{
+
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.git_code_panel{
+    border: 1px solid #EEEEEE;
+    margin-top: 15px;
+    background-color: #C1D7FF;
+
+}
+
+.git_code_panel li:first-child{
+    background-color: #82A6E8;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.git_code_panel li{
+    padding: 5px;
+}
